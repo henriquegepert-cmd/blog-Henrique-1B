@@ -14,3 +14,12 @@ img {
 width: 150px;
 height: 150px;
 }
+main {
+display: flex;
+}
+p {
+font-weight: bold;
+}
+.artigo-autor {
+font-weight: bold;
+}
