@@ -1,7 +1,18 @@
+:root {
+    --cor-primaria: #7878ad;
+    --cor-secundaria: #183c63;
+    --cor-fundo: #183c63;
+    --cor-texto: #151428;
+    --cor-contraste: #f3eef7;
+    --cor-botao: #6b69df;
+}
+body{
+    max-width: 100vw;
+}
 .conteudo-principal {
     display:flex;
     justify-content: center;
-    background-color: #7878ad;
+    background-color: var(--cor-primaria);
     color: #d4ce97ef;
     color: #d4ce97ef;
     text-align: center;
@@ -11,7 +22,7 @@
 }
 
 header {
-    background-color: #183C63;
+    background-color: #var(--cor-fundo);
     color: #d4ce97ef;
     text-align: center;
     max-width: 800px;
@@ -57,4 +68,7 @@ article {
 .conteudo-principal-titulo {
 color: rgb(201, 180, 136);
 font-size: 24px;
+}
+.cabecalho-titulo {
+text-align: center;
 }
