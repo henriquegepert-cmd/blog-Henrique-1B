@@ -36,7 +36,7 @@ p {
     font-weight: bold;
 }
 article {
-    border: 1px solid #183C63;
+    border: 2px solid #d4ce97ef;
     margin: 16px;
     gap: 16px;
     padding: 16px;
@@ -48,9 +48,13 @@ article {
     align-items: center;
     text-align: center;
     justify-content: center;
-    border: 1px solid #183C63;
+    border: 1px solid #d4ce97ef;
     margin: 16px;
     gap: 16px;
     padding: 16px;
     flex: 1 1 25%;
+}
+.conteudo-principal-titulo {
+color: rgb(201, 180, 136);
+font-size: 24px;
 }
