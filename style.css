@@ -36,7 +36,12 @@ img {
 }
 
 main {
+    background-color: var(--cor-fundo);
+    color: #d4ce97ef;
+    margin: 0 auto;
+    padding: 16px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 p {
