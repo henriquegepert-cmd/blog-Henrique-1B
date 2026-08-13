@@ -2,8 +2,8 @@
     --cor-primaria: #7878ad;
     --cor-secundaria: #183c63;
     --cor-fundo: #183c63;
-    --cor-texto: #151428;
-    --cor-contraste: #9e70c4;
+    --cor-texto: #d4ce97ef;
+    --cor-contraste: #d4ce97ef;
     --cor-botao: #6b69df;
 }
 body{
@@ -37,7 +37,7 @@ img {
 
 main {
     background-color: var(--cor-fundo);
-    color: #d4ce97ef;
+    color: var(--cor-texto);
     margin: 0 auto;
     padding: 16px;
     display: flex;
@@ -52,7 +52,7 @@ p {
     font-weight: bold;
 }
 article {
-    border: 2px solid #d4ce97ef;
+    border: 2px solid var(--cor-contraste);
     margin: 16px;
     gap: 16px;
     padding: 16px;
@@ -64,7 +64,7 @@ article {
     align-items: center;
     text-align: center;
     justify-content: center;
-    border: 1px solid #d4ce97ef;
+    border: 1px solid var(--cor-contraste);
     margin: 16px;
     gap: 16px;
     padding: 16px;
