@@ -3,7 +3,7 @@
     --cor-secundaria: #183c63;
     --cor-fundo: #183c63;
     --cor-texto: #151428;
-    --cor-contraste: #f3eef7;
+    --cor-contraste: #9e70c4;
     --cor-botao: #6b69df;
 }
 body{
@@ -22,7 +22,7 @@ body{
 }
 
 header {
-    background-color: #var(--cor-fundo);
+    background-color: var(--cor-fundo);
     color: #d4ce97ef;
     text-align: center;
     max-width: 800px;
